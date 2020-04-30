@@ -1,0 +1,71 @@
+/**
+* Sizes
+* =====
+* - small: < 40em
+* - medium: 40em < 64em
+* - large: 64em and greater
+
+*/
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 20px;
+}
+
+@media screen and (max-width: 39.99em) {
+  article {
+    column-count: 1;
+  }
+}
+@media screen and (min-width: 40em) and (max-width: 63.99em) {
+  article {
+    column-count: 2;
+  }
+}
+@media screen and (min-width: 64em) {
+  article {
+    column-count: 3;
+  }
+}
+
+h1 {
+  line-height: normal;
+  text-align: center;
+}
+@media screen and (max-width: 39.99em) {
+  h1 {
+    color: blue;
+  }
+}
+@media screen and (min-width: 40em) and (max-width: 63.99em) {
+  h1 {
+    color: purple;
+  }
+}
+@media screen and (min-width: 64em) {
+  h1 {
+    color: green;
+  }
+}
+
+img.tupac {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 39.99em) {
+  img.tupac {
+    width: 200px;
+  }
+}
+@media screen and (min-width: 40em) and (max-width: 63.99em) {
+  img.tupac {
+    width: 300px;
+  }
+}
+@media screen and (min-width: 64em) {
+  img.tupac {
+    width: 500px;
+  }
+}
+
+/*# sourceMappingURL=app.css.map */

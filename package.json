@@ -1,0 +1,15 @@
+{
+  "name": "poston-assignment02",
+  "version": "1.0.0",
+  "description": "News Article",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo\"Error: no test specified\" && exit1",
+    "start": "npx http-server"
+  },
+  "author": "Clara Poston",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^0.12.1"
+  }
+}

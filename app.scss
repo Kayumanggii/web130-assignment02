@@ -1,0 +1,48 @@
+@import 'size';
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+}
+
+article{
+    @include size(small){
+        column-count: 1;
+    }
+    @include size(medium){
+        column-count: 2;
+    }
+    @include size(large){
+        column-count: 3;
+    }
+}
+
+h1{
+    line-height: normal;
+    text-align: center;
+        @include size(small){
+            color: blue
+        }
+        @include size(medium){
+            color: purple;
+        }
+        @include size(large){
+            color: green
+        }
+}
+
+img.tupac{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+        @include size(small){
+            width: 200px;
+        }
+        @include size(medium){
+            width: 300px;
+        }
+        @include size(large){
+            width: 500px;
+        }
+}
